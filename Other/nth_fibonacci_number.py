@@ -70,7 +70,7 @@ Using a loop (without a recursion) compute the power of N of the matrix.
 ##############
 
 def nth_fibonacci_1(n):
-    if (n == 0) or (n == 1):
+    if n == 0 or n == 1:
         return n
 
     return nth_fibonacci_1(n - 1) + nth_fibonacci_1(n - 2)
@@ -99,7 +99,7 @@ def nth_fibonacci_2(n):
 ##############
 
 def nth_fibonacci_3(n):
-    dp = [0 for i in range(max(2, n + 1))]
+    dp = [0] * max(2, n+1)
     dp[1] = 1
 
     for i in range(2, n + 1):
@@ -131,15 +131,18 @@ def matrix_mult(a, b):
     The result of multiplication is saved in 'a' (because of that, the reference
     shouldn't be changed, only change the values after all computations are completed
     because 'b' could be the same reference/matrix as 'a').
+    a[0] is the first row of a, which contains a[0][0], a[0][1]
+    Python "unrolls" a00, a01 = a[0], which effectively makes it:
+    a00 = a[0][0] and a01 = a[0][1]
     '''
-    a00 = a[0][0]*b[0][0] + a[0][1]*b[1][0]
-    a01 = a[0][0]*b[0][1] + a[0][1]*b[1][1]
-    a10 = a[1][0]*b[0][0] + a[1][1]*b[1][0]
-    a11 = a[1][0]*b[0][1] + a[1][1]*b[1][1]
-    a[0][0] = a00
-    a[0][1] = a01
-    a[1][0] = a10
-    a[1][1] = a11
+    a00, a01 = a[0]
+    a10, a11 = a[1]
+    b00, b01 = b[0]
+    b10, b11 = b[1]
+    a[0][0] = a00 * b00 + a01 * b10
+    a[0][1] = a00 * b01 + a01 * b11
+    a[1][0] = a10 * b00 + a11 * b10
+    a[1][1] = a10 * b01 + a11 * b11
 
 
 ##############
@@ -168,7 +171,7 @@ def nth_fibonacci_6(n):
     return res[1][1]
 
 def matrix_pow(mat, n):
-    if (n == 0) or (n == 1):
+    if n == 0 or n == 1:
         return
 
     # first compute the power of n/2
@@ -206,21 +209,22 @@ def nth_fibonacci_7(n):
 
 # Test 1
 # Correct result => 21
-print(nth_fibonacci_1(8))
-print(nth_fibonacci_2(8))
-print(nth_fibonacci_3(8))
-print(nth_fibonacci_4(8))
-print(nth_fibonacci_5(8))
-print(nth_fibonacci_6(8))
-print(nth_fibonacci_7(8))
-
+n = 8
+print(nth_fibonacci_1(n))
+print(nth_fibonacci_2(n))
+print(nth_fibonacci_3(n))
+print(nth_fibonacci_4(n))
+print(nth_fibonacci_5(n))
+print(nth_fibonacci_6(n))
+print(nth_fibonacci_7(n))
 
 # Test 2
 # Correct result => 10946
-print(nth_fibonacci_1(21))
-print(nth_fibonacci_2(21))
-print(nth_fibonacci_3(21))
-print(nth_fibonacci_4(21))
-print(nth_fibonacci_5(21))
-print(nth_fibonacci_6(21))
-print(nth_fibonacci_7(21))
+n = 21
+print(nth_fibonacci_1(n))
+print(nth_fibonacci_2(n))
+print(nth_fibonacci_3(n))
+print(nth_fibonacci_4(n))
+print(nth_fibonacci_5(n))
+print(nth_fibonacci_6(n))
+print(nth_fibonacci_7(n))
