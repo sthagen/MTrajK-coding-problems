@@ -19,7 +19,7 @@ As I said previously, all solutions are written in [Python](https://www.python.o
 So, to execute these solutions there is no need from installing any external packages. \
 Coding style and name conventions are described in the official [PEP8](https://www.python.org/dev/peps/pep-0008) page.
 
-*Note that I'm **not** the author of these problems, they are from sites like [LeetCode](https://leetcode.com/) (you can find more than 40 sites like this in the [Training Sites](#Training-Sites) section). **Only** the solutions and explanations are mine.*
+*Note that I'm **not** the author of these problems, they are from sites like [LeetCode](https://leetcode.com/) (you can find more than 40 sites like this in the [Training Sites](#Training-Sites) section). **Only** the solutions and explanations are mine. If you find any **bug** or incorrect implementation (or faster/better implementation) in this repo, please let me know by opening an issue or pull request.*
 
 
 ### Template
@@ -155,9 +155,9 @@ Collection of free courses from one of the best CS universities.
 Several books that have made an impression on me:
 
 1. [Grokking Algorithms by Aditya Bhargava](https://www.goodreads.com/book/show/22847284-grokking-algorithms-an-illustrated-guide-for-programmers-and-other-curio) - **The best** book for complete beginners in algorithms! I wish this book existed when I started learning algorithms.
-2. [Introduction to Algorithms by CLRS](https://www.goodreads.com/book/show/6752187-introduction-to-algorithms) - This book is called "bible textbook of algorithms" by many programmers.
-3. [Algorithms by Robert Sedgewick & Kevin Wayne](https://www.goodreads.com/book/show/10803540-algorithms) - These authors are instructors of the previously mentioned coursera courses: [Algorithms Part 1](https://www.coursera.org/learn/algorithms-part1) and [Algorithms Part 2](https://www.coursera.org/learn/algorithms-part2). Also this book has excellent and free [site](http://algs4.cs.princeton.edu) with exercises, presentations, and examples.
-4. [The Algorithm Design Manual by Steven Skiena](https://www.goodreads.com/book/show/425208.The_Algorithm_Design_Manual) - The book describes many advanced topics and algorithms and it focuses on real life practical examples. This book has one of the best [site](http://www.algorist.com) with resources ([solutions](http://www.algorist.com/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition)), [algorithms and data structures](http://www.algorist.com/algorist.html), [python implementations](http://www.algorist.com/languages/Python.html)).
+2. [Introduction to Algorithms by CLRS](https://www.goodreads.com/book/show/6752187-introduction-to-algorithms) - This book is called the "bible textbook of algorithms" by many programmers.
+3. [Algorithms by Robert Sedgewick & Kevin Wayne](https://www.goodreads.com/book/show/10803540-algorithms) - These authors are instructors of the previously mentioned Coursera courses: [Algorithms Part 1](https://www.coursera.org/learn/algorithms-part1) and [Algorithms Part 2](https://www.coursera.org/learn/algorithms-part2). Also, this book has an excellent and free [site](http://algs4.cs.princeton.edu) with exercises, presentations, and examples.
+4. [The Algorithm Design Manual by Steven Skiena](https://www.goodreads.com/book/show/425208.The_Algorithm_Design_Manual) - The book describes many advanced topics and algorithms and it focuses on real-life practical examples. This book has [one](http://www.algorist.com) of the best sites with resources ([solutions](http://www.algorist.com/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition)), [algorithms and data structures](http://www.algorist.com/algorist.html), [python implementations](http://www.algorist.com/languages/Python.html)).
 5. [Algorithms by S. Dasgupta, C. Papadimitriou, and U. Vazirani](https://www.goodreads.com/book/show/138563.Algorithms) - This book is an official book for algorithms and data structures classes in several famous universities.
 6. [Competitive Programming 3 by Steven Halim & Felix Halim](https://www.goodreads.com/book/show/22820968-competitive-programming-3) - A great book that prepares you for competitive programming (not for complete beginners). You can learn many things and tricks about competitive programming. *But if your goal is to prepare for competitive programming then choose a faster language than Python, **C/C++** (or Java, it's faster than Python but not like C/C++).*
 7. [Cracking the Coding Interview by Gayle Laakmann McDowell](https://www.goodreads.com/book/show/29350585-cracking-the-coding-interview) - A bit different from the previous books. Prepares you for coding interviews using great coding problems.
@@ -206,6 +206,7 @@ If the problems from [LeetCode](https://leetcode.com/) are not enough and you ne
 - [Codility](https://codility.com/)
 - [CoderByte](https://coderbyte.com/)
 - [AlgoExpert](https://www.algoexpert.io/)
+- [CodeSignal](https://codesignal.com/)
 - [Edabit](https://edabit.com/)
 - [DevPost](https://devpost.com/)
 - [Brilliant](http://brilliant.org/)
@@ -231,6 +232,7 @@ If the problems from [LeetCode](https://leetcode.com/) are not enough and you ne
     - [HackerEarth - Tutorials and Practice](https://www.hackerearth.com/practice/) - Practice problems and learn about many algorithms and data structures needed for competitive programming.
     - [KhanAcademy - Algorithms](https://www.khanacademy.org/computing/computer-science/algorithms) - Good explanations for some basic algorithms.
     - [Tutorialspoint - Data Structures and Algorithms](https://www.tutorialspoint.com/data_structures_algorithms/index.htm) - Another platform with good explanations, also Tutorialspoint has free tutorials for almost everything related to CS!
+    - [Programiz - Data Structures and Algorithms](https://www.programiz.com/dsa) - One more platform which explains the data structures and algorithms in a simple and interesting way.
     - [Hackr.io - Data Structures and Algorithms Tutorials and Courses](https://hackr.io/tutorials/learn-data-structures-algorithms) - Big collection of tutorials and courses.
     - [Classpert - Data Structures and Algorithms Courses](https://classpert.com/data-structures-and-algorithms) - List of over 80 Online Courses (free and paid).
 6. YouTube playlists with tutorials:
